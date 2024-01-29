@@ -1,0 +1,6 @@
+schema: https://current--spotify-demo-graph-j5qd9.apollographos.net/graphql 
+generate:
+  - output: lib/graphql/graphql_api.dart
+    plugins:
+      - add_typedefs
+      - graphql_operation_type
